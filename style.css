@@ -1,13 +1,21 @@
 body {
-    display: grid; place-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     margin: 0%;
     padding: 0%;
     background: white;
     color: black;
-    
+
 }
+
+@media (min-width:800px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+
 
 .titre {
     font-family: 'Changa', sans-serif;
@@ -15,10 +23,10 @@ body {
     font-size: 500%;
     grid-column: 1/2;
     text-align: center;
-   
+
 }
 
-h2{
+h2 {
     text-align: center;
     font-family: 'Changa', sans-serif;
     font-weight: bolder;
@@ -28,19 +36,22 @@ h2{
 .cartes {
     border-radius: 50%;
     max-width: 70%;
-    
+
 }
-.divcartes{
+
+.divcartes {
     justify-content: center;
     margin-top: 30px;
 }
-.divcarteposter{
+
+.divcarteposter {
     margin-top: 130px;
     border-radius: 50%;
     max-width: 100%;
 
 }
-h1{
+
+h1 {
     text-align: center;
     font-family: 'Changa', sans-serif;
     font-weight: bolder;
@@ -53,18 +64,20 @@ img {
     display: grid;
     max-width: 100%;
 
-  
+
 }
-.info{
+
+.info {
     text-align: center;
 }
 
-h1 a{
-text-decoration: none;
-color: currentColor;
-font-size: 130%;
+h1 a {
+    text-decoration: none;
+    color: currentColor;
+    font-size: 130%;
 }
-h2 a{
+
+h2 a {
     text-decoration: none;
     color: currentColor;
     font-size: 150%;
